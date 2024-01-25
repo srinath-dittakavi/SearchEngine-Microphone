@@ -13,7 +13,33 @@ Therefore, this project is an attempt to reduce this problem and create a model 
 
 **Whisper-Experimentation**
 
-There are various versions of the Whisper model, ranging from tiny to large. However, when crafting a speech-to-text microphone for a search engine, it's crucial to strike a balance between accuracy and speed. We need a model that not only delivers precise transcriptions but also does so swiftly to ensure a seamless user experience. Larger models excel in precision but demand more time for processing, providing a trade-off between accuracy and speed. On the flip side, smaller models, with fewer parameters, zip through transcriptions at a faster pace, albeit with a potential dip in accuracy. It's a delicate balance, and finding the sweet spot is key."
+There are various versions of the Whisper model, ranging from tiny to large. However, when crafting a speech-to-text microphone for a search engine, it's crucial to strike a balance between accuracy and speed. We need a model that not only delivers precise transcriptions but also does so swiftly to ensure a seamless user experience. Larger models excel in precision but demand more time for processing, providing a trade-off between accuracy and speed. On the flip side, smaller models, with fewer parameters, zip through transcriptions at a faster pace, albeit with a potential dip in accuracy. It's a delicate balance, and finding the sweet spot is key. Therefore, after experimenting with several models and observing the accuracy and recoridng the time, I pick the Whisper-small model due to its small size, average response rate, and accurate transcription.
 
 <img src="https://www.assemblyai.com/blog/content/images/2022/09/Whisper-Inference-Time--CPU-.png" width="100" height="100">
+
+
+**Execution**
+
+Now that we have the base model is selected, the question arises, "How can we improve the models ability to transcribe ethnic names and entities?" This is what is called Named Entity Recognition (NER) is Natural Language Processing, which involes extracting named entities like orgaizations, locations, persons or subjects.
+
+To address this challenge, a valuable approach is to source data that includes audio clips of speakers from diverse ethnic backgrounds along with their English transcriptions. The model I developed in this repository has been fine-tuned specifically for understanding and transcribing words in **Japanese**. However, this concept can be applied to any lanaguage.
+
+To enhance its performance on ethnic names and entities, incorporating a diverse dataset that spans various languages and accents would be beneficial. This ensures that the model learns to recognize and transcribe names accurately, regardless of the speaker's ethnicity or linguistic background.
+
+**Results**
+
+When training the whisper model with clips from another language and english translation, the model is able to significanly produce better results when having to handle named entities.
+
+Here is an example of the regular whisper-small model, when asked the prompt "Who is the main character Usagi Tsukino?":
+
+<img src="https://github.com/srinath-dittakavi/SearchEngine-Microphone/assets/142838954/07ead148-10df-477e-9048-6b79ebc87f40" width="100" height="100">
+
+
+Here is an example of the fine-tuned whisper-small model, when asked the prompt "Who is the main character Usagi Tsukino?":
+
+<img src="https://github.com/srinath-dittakavi/SearchEngine-Microphone/assets/142838954/6dfd0a25-7af8-4295-ba46-3101b90ce082" width="100" height="100">
+
+
+
+
 
