@@ -32,14 +32,35 @@ When training the whisper model with clips from another language and english tra
 
 Here is an example of the regular whisper-small model, when asked the prompt "Who is the main character Usagi Tsukino?":
 
-<img src="https://github.com/srinath-dittakavi/SearchEngine-Microphone/assets/142838954/07ead148-10df-477e-9048-6b79ebc87f40" width="400" height="150">
+<img src="https://github.com/srinath-dittakavi/SearchEngine-Microphone/assets/142838954/07ead148-10df-477e-9048-6b79ebc87f40" width="500" height="200">
 
 
 Here is an example of the fine-tuned whisper-small model, when asked the prompt "Who is the main character Usagi Tsukino?":
 
-<img src="https://github.com/srinath-dittakavi/SearchEngine-Microphone/assets/142838954/6dfd0a25-7af8-4295-ba46-3101b90ce082" width="400" height="150">
+<img src="https://github.com/srinath-dittakavi/SearchEngine-Microphone/assets/142838954/6dfd0a25-7af8-4295-ba46-3101b90ce082" width="500" height="200">
 
 
 
+**Getting Started:**
 
+1. **Clone the Repository:**
+    ```bash
+    git clone https://github.com/yourusername/yourproject.git
+    ```
+
+2. **Follow the Setup Guide:**
+    Open [Start_Guide.txt](link/to/Start_Guide.txt) for step-by-step instructions on setting up and running the WebApp.
+
+
+2. **Download the model:**
+   Download the model from Google Drive - https://drive.google.com/drive/u/0/folders/10FFki1k_mb19qYN1YhtXG0bQCW4PUJHs
+   & Place it in the Webapp/Backend folder
+
+You should now be able to explore the model and interact with the search engine webapp. Thank you!
+
+
+**Supporting Resources**
+-  Facebookresearch/covost: CoVoST: A large-scale multilingual speech-to-Text translation corpus (CC0 licensed). (n.d.). GitHub. https://github.com/facebookresearch/covost
+- Mozilla common voice. (n.d.). Common Voice. https://commonvoice.mozilla.org/en/datasets
+-  Openai/whisper-small · Hugging face. (n.d.). Hugging Face – The AI community building the future. https://huggingface.co/openai/whisper-small
 
