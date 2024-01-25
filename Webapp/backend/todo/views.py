@@ -121,7 +121,6 @@ def audio_transcription_view(request):
                     start_time = time.time()
 
                     """ Uncomment the code below to use the fine-tuned whisper model """
-
                     # fine_tuned_model_path = os.getcwd()+"/whisper-finetuned-common-voice-ja-en"
                     # model = WhisperForConditionalGeneration.from_pretrained(fine_tuned_model_path)
                     # tokenizer = WhisperTokenizer.from_pretrained(fine_tuned_model_path)
