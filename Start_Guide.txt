@@ -1,0 +1,9 @@
+Start Backend:
+cd Speech2Text
+pipenv shell
+cd Webapp/backend
+python3 manage.py runserver
+
+Start Frontend:
+cd Speech2Text/Webapp/frontend
+npm start
