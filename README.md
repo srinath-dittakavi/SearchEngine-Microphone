@@ -10,10 +10,8 @@ Therefore, this project is an attempt to reduce this problem and create a model 
 
 https://cdn-thumbnails.huggingface.co/social-thumbnails/models/openai/whisper-small.png![image](https://github.com/srinath-dittakavi/SearchEngine-Microphone/assets/142838954/3507d005-4877-44e9-8e35-b40abffb24f6)
 
-
-
-
-
 **Whisper-Experimentation**
 
-This project bega
+There are various versions of the Whisper model, ranging from tiny to large. However, when crafting a speech-to-text microphone for a search engine, it's crucial to strike a balance between accuracy and speed. We need a model that not only delivers precise transcriptions but also does so swiftly to ensure a seamless user experience. Larger models excel in precision but demand more time for processing, providing a trade-off between accuracy and speed. On the flip side, smaller models, with fewer parameters, zip through transcriptions at a faster pace, albeit with a potential dip in accuracy. It's a delicate balance, and finding the sweet spot is key."
+
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.assemblyai.com%2Fblog%2Fhow-to-run-openais-whisper-speech-recognition-model%2F&psig=AOvVaw2rZOl17WQDTXm4iaSRpM0S&ust=1706264845331000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCPjGooKq-IMDFQAAAAAdAAAAABAd![image](https://github.com/srinath-dittakavi/SearchEngine-Microphone/assets/142838954/55ba2006-7cf1-4823-8be5-85d6f7eac58f)
