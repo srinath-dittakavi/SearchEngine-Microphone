@@ -54,7 +54,7 @@ Because this model is trained on the Japanese audio clips with english translati
     ```
 
 2. **Follow the Setup Guide:**
-    Open [Start_Guide.txt](link/to/Start_Guide.txt) for step-by-step instructions on setting up and running the WebApp.
+    Open [Start_Guide.txt](Start_Guide.txt) for step-by-step instructions on setting up and running the WebApp.
 
 
 2. **Download the model:**
