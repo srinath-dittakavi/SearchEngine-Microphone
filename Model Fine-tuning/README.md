@@ -8,8 +8,7 @@ For easier access, a small sample is located inside the Audio Clips folder.
 
 <img src="https://github.com/srinath-dittakavi/SearchEngine-Microphone/assets/142838954/6f0248fe-4a88-457b-bfc3-1bd1a26d529f" width="400" height="300">
 
-
-
+<br>
 
 - **Japanese to English Translations:** [Link](https://github.com/facebookresearch/covost) - The Covost is corpus of translations of the clips in the The Common Voice Corpus 4. The dataset contains paths to the clips in the The Common Voice Corpus and a translation of the audio to english.
 
