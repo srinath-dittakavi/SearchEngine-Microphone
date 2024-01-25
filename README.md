@@ -1,5 +1,7 @@
 # Enhanced Named Entity Recognition with Whisper Fine-Tuning: The Search Engine's Microphone
 
+By: Srinath Dittakavi
+
 **Introduction**
 
 Ever tap that mic button on your keyboard or on Google, casually dropping ethnic names or specific terms, only to have the mic play the typo game? We've all been there, that annoying detour to fix things up. Let's talk about the microphone mishaps we've all faced!
