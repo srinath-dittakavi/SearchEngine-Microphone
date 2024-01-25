@@ -32,12 +32,12 @@ When training the whisper model with clips from another language and english tra
 
 Here is an example of the regular whisper-small model, when asked the prompt "Who is the main character Usagi Tsukino?":
 
-<img src="https://github.com/srinath-dittakavi/SearchEngine-Microphone/assets/142838954/07ead148-10df-477e-9048-6b79ebc87f40" width="800" height="200">
+<img src="https://github.com/srinath-dittakavi/SearchEngine-Microphone/assets/142838954/07ead148-10df-477e-9048-6b79ebc87f40" width="600" height="200">
 
 
 Here is an example of the fine-tuned whisper-small model, when asked the prompt "Who is the main character Usagi Tsukino?":
 
-<img src="https://github.com/srinath-dittakavi/SearchEngine-Microphone/assets/142838954/6dfd0a25-7af8-4295-ba46-3101b90ce082" width="800" height="200">
+<img src="https://github.com/srinath-dittakavi/SearchEngine-Microphone/assets/142838954/6dfd0a25-7af8-4295-ba46-3101b90ce082" width="600" height="200">
 
 
 
