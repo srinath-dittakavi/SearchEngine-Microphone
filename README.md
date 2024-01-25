@@ -8,9 +8,12 @@ For example, If I ask the microphone the question "Who is the main character Usa
 
 Therefore, this project is an attempt to reduce this problem and create a model that is able to better transcribe speech. The base model that I used in the project is whisper-small (https://github.com/openai/whisper) which is a small but powerful model that is able to transcribe speech into text very impressively.
 
-<img src="https://github.com/srinath-dittakavi/SearchEngine-Microphone/assets/142838954/3507d005-4877-44e9-8e35-b40abffb24f6" width="100" height="100">
+<img src="https://github.com/srinath-dittakavi/SearchEngine-Microphone/assets/142838954/3507d005-4877-44e9-8e35-b40abffb24f6" width="200" height="150">
 
 <!-- Add a blank line above each header -->
+<!-- Add a blank line above each header -->
+<!-- Add a blank line above each header -->
+
 
 **Whisper-Experimentation**
 
