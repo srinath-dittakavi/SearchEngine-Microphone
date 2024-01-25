@@ -15,5 +15,5 @@ Therefore, this project is an attempt to reduce this problem and create a model 
 
 There are various versions of the Whisper model, ranging from tiny to large. However, when crafting a speech-to-text microphone for a search engine, it's crucial to strike a balance between accuracy and speed. We need a model that not only delivers precise transcriptions but also does so swiftly to ensure a seamless user experience. Larger models excel in precision but demand more time for processing, providing a trade-off between accuracy and speed. On the flip side, smaller models, with fewer parameters, zip through transcriptions at a faster pace, albeit with a potential dip in accuracy. It's a delicate balance, and finding the sweet spot is key."
 
-![Resized Image](https://www.assemblyai.com/blog/content/images/2022/09/Whisper-Inference-Time--CPU-.png | width=100 height=100)
+<img src="https://www.assemblyai.com/blog/content/images/2022/09/Whisper-Inference-Time--CPU-.png" width="100" height="100">
 
