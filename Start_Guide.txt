@@ -1,9 +1,26 @@
-Start Backend:
-cd Speech2Text
-pipenv shell
-cd Webapp/backend
-python3 manage.py runserver
+Here are the instructions to start the Search Engine:
 
-Start Frontend:
-cd Speech2Text/Webapp/frontend
-npm start
+There are 2 components that will need to be started: The Backend & Frontend
+
+1) Open a terminal and cd into the Project Folder
+
+2) Start Backend:
+      1) pipenv shell
+      2) cd Webapp/backend
+      3) runpython3 manage.py runserver
+
+3) Start Frontend:
+      1) cd Webapp/frontend
+      2) npm start
+
+Once both the Frontend and Backend are running, you will see a the search engine open in your browser.
+
+******************************************************************************************************************************************
+
+The code is by default set to Whisper-small. However, To use the fine-tuned model that has been trained on Japanese transcription:
+
+1) Please download the model from the Google Drive: https://drive.google.com/drive/folders/10FFki1k_mb19qYN1YhtXG0bQCW4PUJHs?usp=drive_link
+2) Upon downloading, add the model folder within the Webapp/backend.
+3) Uncomment the code in Webapp/frontend/todo/views.py in the audio_transcription_view function.
+
+
