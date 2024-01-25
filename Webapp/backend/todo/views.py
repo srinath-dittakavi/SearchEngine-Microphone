@@ -120,13 +120,13 @@ def audio_transcription_view(request):
                 try:
                     start_time = time.time()
 
-                    # fine_tuned_model_path = os.getcwd()+"/whisper-finetuned-common-voice-ja-en"
-                    # model = WhisperForConditionalGeneration.from_pretrained(fine_tuned_model_path)
-                    # tokenizer = WhisperTokenizer.from_pretrained(fine_tuned_model_path)
-                    # feature_extractor = WhisperFeatureExtractor.from_pretrained(fine_tuned_model_path)
-                    # pipe = pipeline("automatic-speech-recognition", model=model, tokenizer=tokenizer, feature_extractor=feature_extractor, chunk_length_s=30, generate_kwargs = {"language":"<|en|>","task": "transcribe"})
+                    fine_tuned_model_path = os.getcwd()+"/whisper-finetuned-common-voice-ja-en"
+                    model = WhisperForConditionalGeneration.from_pretrained(fine_tuned_model_path)
+                    tokenizer = WhisperTokenizer.from_pretrained(fine_tuned_model_path)
+                    feature_extractor = WhisperFeatureExtractor.from_pretrained(fine_tuned_model_path)
+                    pipe = pipeline("automatic-speech-recognition", model=model, tokenizer=tokenizer, feature_extractor=feature_extractor, chunk_length_s=30, generate_kwargs = {"language":"<|en|>","task": "transcribe"})
 
-                    pipe = pipeline("automatic-speech-recognition", model="openai/whisper-small", chunk_length_s=30, generate_kwargs = {"language":"<|en|>","task": "transcribe"}) # openai/whisper-base & openai/whisper-large-v2
+                    # pipe = pipeline("automatic-speech-recognition", model="openai/whisper-small", chunk_length_s=30, generate_kwargs = {"language":"<|en|>","task": "transcribe"}) # openai/whisper-base & openai/whisper-large-v2
 
                     transcription = pipe(audio_data)["text"]
 
