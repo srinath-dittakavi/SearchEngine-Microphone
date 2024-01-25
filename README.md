@@ -45,7 +45,7 @@ Here is an example of the fine-tuned whisper-small model, when asked the prompt 
 
 1. **Clone the Repository:**
     ```bash
-    git clone https://github.com/yourusername/yourproject.git
+    https://github.com/srinath-dittakavi/SearchEngine-Microphone.git
     ```
 
 2. **Follow the Setup Guide:**
