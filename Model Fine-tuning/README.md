@@ -10,4 +10,4 @@ For easier access, a small sample is located inside the Audio Clips folder.
 
 The full Covost dataset can be viewed at covost_v2.ja_en.tsv.
 
-![Screenshot](https://github.com/srinath-dittakavi/SearchEngine-Microphone/assets/142838954/6fc8e141-3e53-4dd2-a94a-86a045ee8450 | width=100, height=100)
+![Screenshot](https://github.com/srinath-dittakavi/SearchEngine-Microphone/assets/142838954/6fc8e141-3e53-4dd2-a94a-86a045ee8450 | width=100)
