@@ -18,4 +18,4 @@ Throughout the fine-tuning process, accuracy and response time were carefully mo
 The refined whisper-small model, tailored to Japanese named entities, is now poised to contribute effectively to the project's objectives, showcasing improved performance and reliability in handling Japanese language-specific tasks.
 
 Link to download the model:
-[Google Drive Components](https://drive.google.com/drive/folders/10FFki1k_mb19qYN1YhtXG0bQCW4PUJHs?usp=sharing)
+[Google Drive - Model](https://drive.google.com/drive/folders/10FFki1k_mb19qYN1YhtXG0bQCW4PUJHs?usp=sharing)
