@@ -44,7 +44,7 @@ Now, Here is an example of the fine-tuned whisper-small model, when asked the pr
 
 <img src="https://github.com/srinath-dittakavi/SearchEngine-Microphone/assets/142838954/6dfd0a25-7af8-4295-ba46-3101b90ce082" width="600" height="200">
 
-Because this model is trained on the Japanese audio clips with english translation, it is producing greater results when named entites from other lanagues appear.
+Because this model is trained on the Japanese audio clips with english translation, it is producing greater results when Japanese named entites appear.
 
 **Getting Started:**
 
@@ -62,6 +62,15 @@ Because this model is trained on the Japanese audio clips with english translati
    & Place it in the Webapp/Backend folder
 
 You should now be able to explore the model and interact with the search engine webapp. Thank you!
+
+**Limitations:**
+- Accurate Transcription of Japanese Named Entries: While the model shows improved performance in transcribing Japanese named entries, further refinement can enhance its proficiency.
+  Additional training data specific to Japanese names could contribute to better accuracy.
+
+- Challenges with Background Noise: The current model faces limitations in effectively filtering and disregarding background noises. This may lead to the inclusion of extraneous words or inaccuracies in transcription, especially in environments with high levels of ambient noise.
+  
+- Real-Time Processing: "Whisper is one of the recent state-of-the-art multilingual speech recognition and translation models, however, it is not designed for real time transcription" [1] Therefore the fine-tuned model's processing capabilities may be limited in real-time scenarios, particularly when faced with high volumes of audio spoken.
+  [1] - https://arxiv.org/abs/2307.14743#:~:text=Whisper%20is%20one%20of%20the,designed%20for%20real%20time%20transcription.
 
 
 **Supporting Resources**
