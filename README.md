@@ -10,10 +10,7 @@ Therefore, this project is an attempt to reduce this problem and create a model 
 
 <img src="https://github.com/srinath-dittakavi/SearchEngine-Microphone/assets/142838954/3507d005-4877-44e9-8e35-b40abffb24f6" width="200" height="150">
 
-<!-- Add a blank line above each header -->
-<!-- Add a blank line above each header -->
-<!-- Add a blank line above each header -->
-
+&nbsp;
 
 **Whisper-Experimentation**
 
@@ -21,6 +18,7 @@ There are various versions of the Whisper model, ranging from tiny to large. How
 
 <img src="https://www.assemblyai.com/blog/content/images/2022/09/Whisper-Inference-Time--CPU-.png" width="500" height="300">
 
+&nbsp;
 
 **Execution**
 
@@ -29,6 +27,8 @@ Now that we have the base model is selected, the question arises, "How can we im
 To address this challenge, a valuable approach is to source data that includes audio clips of speakers from diverse ethnic backgrounds along with their English transcriptions. The model I developed in this repository has been fine-tuned specifically for understanding and transcribing words in **Japanese**. However, this concept can be applied to any lanaguage.
 
 To enhance its performance on ethnic names and entities, incorporating a diverse dataset that spans various languages and accents would be beneficial. This ensures that the model learns to recognize and transcribe names accurately, regardless of the speaker's ethnicity or linguistic background.
+
+&nbsp;
 
 **Results**
 
@@ -46,6 +46,8 @@ Now, Here is an example of the fine-tuned whisper-small model, when asked the pr
 
 Because this model is trained on the Japanese audio clips with english translation, it is producing greater results when Japanese named entites appear.
 
+&nbsp;
+
 **Getting Started:**
 
 1. **Clone the Repository:**
@@ -61,7 +63,9 @@ Because this model is trained on the Japanese audio clips with english translati
    Download the model from Google Drive - https://drive.google.com/drive/u/0/folders/10FFki1k_mb19qYN1YhtXG0bQCW4PUJHs
    & Place it in the Webapp/Backend folder
 
-You should now be able to explore the model and interact with the search engine webapp. Thank you!
+You should now be able to explore the model and interact with the search engine. Thank you!
+
+&nbsp;
 
 **Limitations:**
 - Accurate Transcription of Japanese Named Entries: While the model shows improved performance in transcribing Japanese named entries, further refinement can enhance its proficiency.
@@ -72,6 +76,7 @@ You should now be able to explore the model and interact with the search engine 
 - Real-Time Processing: "Whisper is one of the recent state-of-the-art multilingual speech recognition and translation models, however, it is not designed for real time transcription" [1] Therefore the fine-tuned model's processing capabilities may be limited in real-time scenarios, particularly when faced with high volumes of audio spoken.
   [1] - https://arxiv.org/abs/2307.14743#:~:text=Whisper%20is%20one%20of%20the,designed%20for%20real%20time%20transcription.
 
+&nbsp;
 
 **Supporting Resources**
 -  Facebookresearch/covost: CoVoST: A large-scale multilingual speech-to-Text translation corpus (CC0 licensed). (n.d.). GitHub. https://github.com/facebookresearch/covost
